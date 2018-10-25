@@ -1,0 +1,26 @@
+**/.*           # ignore all hidden files
+**/target       # all maven output
+**/*.iml        # IntelliJ
+!**/.gitignore  # keep git ignores even though hidden
+
+
+
+# Build
+target/
+gradle
+.gradle
+
+# IntelliJ
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Eclipse
+.settings
+.project
+.classpath
+.factorypath
+.checkstyle
+.pmd
+.externalToolBuilders
